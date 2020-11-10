@@ -11,10 +11,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.javi</groupId>
-    <artifactId>doodle-assignment</artifactId>
+    <artifactId>text-object-search</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>doodle-assignment</name>
-    <description>Doodle assignment</description>
+    <name>text-object-search</name>
+    <description>Property search</description>
 
     <properties>
         <java.version>11</java.version>
@@ -23,6 +23,7 @@
         <mapstructs.version>1.3.1.Final</mapstructs.version>
         <mockito.version>3.3.0</mockito.version>
         <guava.version>28.2-jre</guava.version>
+        <reactor.version>3.3.2.RELEASE</reactor.version>
     </properties>
 
     <dependencies>
@@ -41,6 +42,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
         <dependency>
@@ -73,6 +79,12 @@
             <version>${mockito.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>${reactor.version}</version>
+        </dependency>
+
 
     </dependencies>
 
@@ -90,8 +102,8 @@
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/swagger.yaml</inputSpec>
                             <generatorName>spring</generatorName>
-                            <apiPackage>com.javi.doodle.api</apiPackage>
-                            <modelPackage>com.javi.doodle.model</modelPackage>
+                            <apiPackage>com.javi.assignment.api</apiPackage>
+                            <modelPackage>com.javi.assignment.model</modelPackage>
                             <configOptions>
                                 <interfaceOnly>true</interfaceOnly>
                                 <serializableModel>true</serializableModel>

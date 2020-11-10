@@ -1,7 +1,7 @@
-package com.javi.doodle.mapper;
+package com.javi.assignment.mapper;
 
-import com.javi.doodle.model.Poll;
-import com.javi.doodle.model.PollResponse;
+import com.javi.assignment.model.Poll;
+import com.javi.assignment.model.PollResponse;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.NullValuePropertyMappingStrategy;

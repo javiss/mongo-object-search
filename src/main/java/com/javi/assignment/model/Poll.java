@@ -1,4 +1,4 @@
-package com.javi.doodle.model;
+package com.javi.assignment.model;
 
 
 import lombok.Data;

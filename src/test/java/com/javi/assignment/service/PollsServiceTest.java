@@ -1,11 +1,11 @@
-package com.javi.doodle.service;
+package com.javi.assignment.service;
 
-import com.javi.doodle.exception.NotSupportedException;
-import com.javi.doodle.mapper.PollMapper;
-import com.javi.doodle.mapper.PollMapperImpl;
-import com.javi.doodle.model.Poll;
-import com.javi.doodle.model.PollResponse;
-import com.javi.doodle.repository.PollRepository;
+import com.javi.assignment.exception.NotSupportedException;
+import com.javi.assignment.mapper.PollMapper;
+import com.javi.assignment.mapper.PollMapperImpl;
+import com.javi.assignment.model.Poll;
+import com.javi.assignment.model.PollResponse;
+import com.javi.assignment.repository.PollRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

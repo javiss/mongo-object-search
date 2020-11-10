@@ -1,4 +1,4 @@
-package com.javi.doodle;
+package com.javi.assignment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

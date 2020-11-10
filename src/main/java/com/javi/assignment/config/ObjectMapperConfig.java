@@ -1,4 +1,4 @@
-package com.javi.doodle.config;
+package com.javi.assignment.config;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;

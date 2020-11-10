@@ -1,6 +1,6 @@
-package com.javi.doodle.repository;
+package com.javi.assignment.repository;
 
-import com.javi.doodle.model.Poll;
+import com.javi.assignment.model.Poll;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

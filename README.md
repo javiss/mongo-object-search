@@ -1,4 +1,4 @@
-#Doodle assignment
+#Assignment
 
 Spring REST app that allows to search by date or text poll objects in a mongo database.
 
@@ -48,7 +48,7 @@ Not implemented
 `localhost:8080/polls/?fromdate=2017-03-29&text=doo&untildate=2020-03-11`
 
 
-## Why did I used..
+## Why did I used 'x'
 
 - `Lombok`: One of the quality of life libs that I like so I don't need to deal with accessors and constructors.
 - `mapstructs`: Makes the mappings easy, especially for complex and similar objects where you can use listener annotation for the mapping hooks (`@BeforeMapping`, `@AfterMapping`,...). What I don't like about it is that you can't see the result until the app is compiled and you lose the type checking at the time of writing the coded because you're writing strings.
@@ -68,9 +68,3 @@ Not implemented
 - Integration tests with a real DB.
 - Health endpoints for monitoring and deploy like spring actuator.
 - Deploy to heroku
-
-## Further notes
-
-I've not used mongo in really long time and just for some basic stuff, I'm more used to SQL dbs.
-Also I've never used Docker before, I was familiar with the concept of Docker but I've never wrote a `docker-compose` or any `dockerfile` so it took some trial and error to see what was actually happening.
-Besides that it was fun the challenge of writing actual docker code and see what is really like in practice.

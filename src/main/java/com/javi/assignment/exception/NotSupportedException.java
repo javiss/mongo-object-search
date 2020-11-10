@@ -1,4 +1,4 @@
-package com.javi.doodle.exception;
+package com.javi.assignment.exception;
 
 public class NotSupportedException extends Exception {
 }

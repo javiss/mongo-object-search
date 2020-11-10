@@ -1,7 +1,7 @@
-package com.javi.doodle.repository;
+package com.javi.assignment.repository;
 
 import com.google.common.base.Preconditions;
-import com.javi.doodle.model.Poll;
+import com.javi.assignment.model.Poll;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
